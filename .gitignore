@@ -1,0 +1,24 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Django / local data
+*.sqlite3
+.env
+.env.*
+!.env.example
+staticfiles/
+media/
+
+# ML model artifacts (generated locally)
+*.joblib
+battery_lifetime/battery/ml/artifacts/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
